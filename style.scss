@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-slate-200 text-slate-800 text-lg leading-relaxed;
+}
+
+.silent {
+    @apply text-slate-400;
+}
+
+#briefly {
+    @apply max-w-7xl mx-auto py-40;
+
+    #mail {
+        @apply bg-white mx-10 p-10 shadow-2xl rounded-xl;
+
+        header {
+            @apply flex justify-between;
+
+            .sender {
+                @apply flex-none w-40 h-40 -mt-24 border-8 border-white rounded-full;
+            }
+
+            .attributes {
+                @apply flex-grow flex-shrink ml-5;
+
+                .attribute {
+                    @apply flex;
+
+                    dt {
+                        @apply w-16;
+                    }
+                }
+            }
+
+            .received {
+                @apply text-right;
+            }
+        }
+
+        .body {
+            .subject {
+                @apply mt-5 pt-10 border-t border-slate-300 text-2xl font-extrabold;
+            }
+
+            p {
+                @apply my-5;
+            }
+        }
+    }
+}
