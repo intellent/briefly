@@ -22,7 +22,7 @@ function onSenderChange(event)
 
 function updatePicture(email)
 {
-    document.getElementById('sender-picture').setAttribute('src', 'https://www.gravatar.com/avatar/' + md5(email) + '?s=400&d=/images/default-picture.jpg')
+    document.getElementById('sender-picture').setAttribute('src', 'https://www.gravatar.com/avatar/' + md5(email) + '?s=400&d=mp')
 }
 
 
