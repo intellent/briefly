@@ -4,6 +4,8 @@
 
 Well, if you want. And if you want them to look decent. Use this.
 
+https://intellent.github.io/briefly/
+
 You may need to manually adjust the scale in your printer dialog for the whole mail
 to fit on a paper format and orientation of your liking.
 
