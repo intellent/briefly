@@ -4,6 +4,9 @@
 
 Well, if you want. And if you want them to look decent. Use this.
 
+You may need to manually adjust the scale in your printer dialog for the whole mail
+to fit on a paper format and orientation of your liking.
+
 
 ## Development
 
@@ -26,3 +29,8 @@ To build:
 ```bash
 docker-compose run --rm yarn build
 ```
+
+
+## Credits
+
+Default photo by [Max Harlynking](https://unsplash.com/@harlynkingm) on [Unsplash](https://unsplash.com)
